@@ -1,0 +1,16 @@
+{
+  "rocketMQClusterName": "DefaultCluster",
+  "namesrvAddr": "rmqnamesrv:9876",
+  "proxyMode": "CLUSTER",
+  "heartbeatSyncerTopicName": "DefaultHeartBeatSyncerTopic",
+  "heartbeatSyncerGroup": "DefaultHeartBeatSyncerGroup",
+  "localServeConfig": {
+     "httpServerPort": 8080,
+     "grpcServerPort": 8081
+  },
+  "topicRouteServiceEnabled": true,
+  "threadPoolsConfig": {
+     "defaultThreadPoolNums": 16,
+     "defaultThreadPoolQueueCapacity": 100000
+  }
+}
